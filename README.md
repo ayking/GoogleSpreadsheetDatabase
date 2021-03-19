@@ -11,7 +11,7 @@ Getting started (2 setps)
 
 ### Google spreadsheet
 
-Create a new google spreadsheet and config the share settings as follow [Sample spreadsheet](https://docs.google.com/spreadsheets/d/1-kQ1wREmYaQ0qCbaQKHrWZmpaesHoKgDU1O1nbL1ofQ/edit#gid=0)
+Create a new google spreadsheet and config the share settings as follow 
 
 ![Share config 1](/assets/01.png)
 
@@ -22,6 +22,12 @@ Find the spreadsheet id
 Find the gid per sheet
 
 ![Share config 3](/assets/03.png)
+
+Here is the [Sample spreadsheet](https://docs.google.com/spreadsheets/d/1-kQ1wREmYaQ0qCbaQKHrWZmpaesHoKgDU1O1nbL1ofQ/edit#gid=0) with the following assumptions 
+
+* Each row as a record
+* First row must be the header and also used as the key in API
+* If the column name started with * will be shipped in the API
 
 ### Run server
 
