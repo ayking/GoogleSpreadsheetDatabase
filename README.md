@@ -11,7 +11,7 @@ Getting started (2 setps)
 
 ### Google spreadsheet
 
-Create a new google spreadsheet and config the share settings as follow [https://docs.google.com/spreadsheets/d/1-kQ1wREmYaQ0qCbaQKHrWZmpaesHoKgDU1O1nbL1ofQ/edit#gid=0](Sample spreadsheet)
+Create a new google spreadsheet and config the share settings as follow [Sample spreadsheet](https://docs.google.com/spreadsheets/d/1-kQ1wREmYaQ0qCbaQKHrWZmpaesHoKgDU1O1nbL1ofQ/edit#gid=0)
 
 ![Share config 1](/assets/01.png)
 
