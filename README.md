@@ -3,12 +3,27 @@ Google Spreadsheet Database
 
 A project to convert Google Spreadsheet into realtime database with API endpoint
 
-Getting started
+Getting started (2 setps)
 ---------------
+
+### Google spreadsheet
+
+Create a new google spreadsheet and config the share settings as follow
+
+![Share config 1](/assets/01.png)
+
+Find the spreadsheet id 
+
+![Share config 2](/assets/02.png)
+
+Find the gid per sheet
+
+![Share config 3](/assets/03.png)
+
+### Run server
 
 Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Mac or Windows. [Docker Compose](https://docs.docker.com/compose) will be automatically installed.
 
-## Run server
 Run in this directory:
 ```
 docker-compose up -- build
