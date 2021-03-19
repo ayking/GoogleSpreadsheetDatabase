@@ -1,0 +1,10 @@
+{
+    "google_config": [
+        {
+            "name": "[Variable name]",
+            "gid": "google spreadsheet gid"
+        }
+    ],
+    "letmein_key": "[whitelist password]",
+    "spreadsheets_id": "[spreadsheets_id]"
+}

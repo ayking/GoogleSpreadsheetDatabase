@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  service:
+    command: node /server/app.js
+    build: .
+    environment:
+      - ENV=development
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      - ./server/config:/server/config
