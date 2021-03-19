@@ -1,8 +1,12 @@
 {
     "google_config": [
         {
-            "name": "API",
+            "name": "Data1",
             "gid": "0"
+        },
+        {
+            "name": "Data2",
+            "gid": "1085974548"
         }
     ],
     "letmein_key": "password",
