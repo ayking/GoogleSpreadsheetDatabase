@@ -1,3 +1,6 @@
+# *** THIS IS FOR DEVELOPMENT ONLY *** 
+
+
 Google Spreadsheet Database
 ---------------
 
@@ -38,4 +41,45 @@ The app will be running at [http://localhost:8080](http://localhost:8080).
 * Register the IP whitelist [http://localhost:8080/letmein?k=password](http://localhost:8080/letmein?k=password)
 * Vist the API endpoint by [http://localhost:8080/data/all](http://localhost:8080/data/all)
 
+### Unity
+
+I will recommend to use the following asset to get the API [
+Rest Client for Unity](https://assetstore.unity.com/packages/tools/network/rest-client-for-unity-102501)
+
+
+```
+RestClient.Get<APIData>(domain + "data/all");
+```
+
+APIData.cs
+```c#
+[System.Serializable]
+public class APIData
+{
+  public Data1[] demo;
+}
+```
+
+Data1.cs
+```c#
+[System.Serializable]
+public class Data1
+{
+  public int ID;
+  public string Name;
+  public int Str;
+  public int Int;
+  public int Dex;
+}
+```
+
+Data2.cs
+```c#
+[System.Serializable]
+public class Data2
+{
+  public int ID;
+  public string MapName;
+  public int NumberOfEnemies;
+}
 
