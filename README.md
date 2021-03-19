@@ -43,7 +43,7 @@ The app will be running at [http://localhost:8080](http://localhost:8080).
 
 ### Unity
 
-I will recommend to use the following asset to get the API [
+I will recommend to use the following asset to get the data [
 Rest Client for Unity](https://assetstore.unity.com/packages/tools/network/rest-client-for-unity-102501)
 
 
