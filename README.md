@@ -6,6 +6,8 @@ Google Spreadsheet Database
 
 A project to convert Google Spreadsheet into realtime database with API endpoint
 
+![Demo](/assets/demo.gif)
+
 Getting started (2 setps)
 ---------------
 
